@@ -1,5 +1,5 @@
-# Use ARM64 base image for Bedrock AgentCore compatibility
-FROM --platform=linux/arm64 public.ecr.aws/docker/library/python:3.13
+# Use ARM64 platform for Bedrock AgentCore compatibility
+FROM public.ecr.aws/docker/library/python:3.13
 
 WORKDIR /var/task
 
