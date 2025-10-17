@@ -126,9 +126,9 @@ export class GenericAgentCore extends Construct {
       'AgentCoreRuntimeDockerAsset',
       {
         directory: path.join(__dirname, `../../${dockerPath}`),
-        // Remove platform specification to use native platform
+        platform: Platform.LINUX_ARM64, // AgentCore requires ARM64
         buildArgs: {
-          BUILDPLATFORM: 'linux/amd64',
+          DOCKER_BUILDKIT: '1',
         },
       }
     );

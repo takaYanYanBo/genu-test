@@ -1,5 +1,5 @@
-# Use native platform for compatibility
-FROM public.ecr.aws/docker/library/python:3.13
+# Force ARM64 platform for AgentCore compatibility
+FROM --platform=linux/arm64 public.ecr.aws/docker/library/python:3.13
 
 WORKDIR /var/task
 
