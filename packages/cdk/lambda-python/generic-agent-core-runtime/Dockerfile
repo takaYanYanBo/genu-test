@@ -1,4 +1,4 @@
-# Force ARM64 platform for AgentCore compatibility
+# Use ARM64 base image for Bedrock AgentCore compatibility
 FROM --platform=linux/arm64 public.ecr.aws/docker/library/python:3.13
 
 WORKDIR /var/task
