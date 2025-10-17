@@ -1,11 +1,5 @@
-# Use multi-platform base image for cross-platform compatibility
-# syntax=docker/dockerfile:1
-FROM --platform=$TARGETPLATFORM public.ecr.aws/docker/library/python:3.13
-
-# Build arguments for cross-platform support
-ARG TARGETPLATFORM
-ARG BUILDPLATFORM
-RUN echo "Building on $BUILDPLATFORM, targeting $TARGETPLATFORM"
+# Use native platform for compatibility
+FROM public.ecr.aws/docker/library/python:3.13
 
 WORKDIR /var/task
 

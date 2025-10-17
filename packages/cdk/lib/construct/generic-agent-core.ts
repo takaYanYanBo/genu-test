@@ -121,19 +121,14 @@ export class GenericAgentCore extends Construct {
       removalPolicy: RemovalPolicy.DESTROY,
     });
 
-    // Determine target platform - default to ARM64 for AWS Lambda efficiency
-    const targetPlatform = process.env.DOCKER_PLATFORM === 'amd64' 
-      ? Platform.LINUX_AMD64 
-      : Platform.LINUX_ARM64;
-
     const dockerAsset = new DockerImageAsset(
       this,
       'AgentCoreRuntimeDockerAsset',
       {
         directory: path.join(__dirname, `../../${dockerPath}`),
-        platform: targetPlatform,
+        // Remove platform specification to use native platform
         buildArgs: {
-          BUILDPLATFORM: 'linux/amd64', // Build platform for cross-compilation
+          BUILDPLATFORM: 'linux/amd64',
         },
       }
     );
