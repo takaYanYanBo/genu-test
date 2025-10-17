@@ -127,6 +127,9 @@ export class GenericAgentCore extends Construct {
       {
         directory: path.join(__dirname, `../../${dockerPath}`),
         platform: Platform.LINUX_ARM64, // Use ARM64 to match Dockerfile
+        buildArgs: {
+          '--builder': 'multiarch',
+        },
       }
     );
 
