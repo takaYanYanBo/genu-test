@@ -11,14 +11,13 @@ import {
   ChatPageQueryParams,
 } from '../@types/navigate';
 import queryString from 'query-string';
-import { useTranslation } from 'react-i18next';
+
 
 const agentCoreEnabled: boolean =
   import.meta.env.VITE_APP_AGENT_CORE_ENABLED === 'true';
 
 const LandingPage: React.FC = () => {
   const navigate = useNavigate();
-  const { t } = useTranslation();
 
   const demoChat = () => {
     const params: ChatPageQueryParams = {
