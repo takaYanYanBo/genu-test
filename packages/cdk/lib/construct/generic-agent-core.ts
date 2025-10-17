@@ -126,10 +126,7 @@ export class GenericAgentCore extends Construct {
       'AgentCoreRuntimeDockerAsset',
       {
         directory: path.join(__dirname, `../../${dockerPath}`),
-        platform: Platform.LINUX_ARM64,
-        buildArgs: {
-          DOCKER_BUILDKIT: '1',
-        }
+        platform: Platform.LINUX_ARM64
       }
     );
 
