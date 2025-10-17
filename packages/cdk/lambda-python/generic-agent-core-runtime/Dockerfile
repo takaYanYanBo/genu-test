@@ -1,5 +1,11 @@
-# Use ARM64 base image for Bedrock AgentCore compatibility
-FROM --platform=linux/arm64 public.ecr.aws/docker/library/python:3.13
+# Use multi-platform base image for cross-platform compatibility
+# syntax=docker/dockerfile:1
+FROM --platform=$TARGETPLATFORM public.ecr.aws/docker/library/python:3.13
+
+# Build arguments for cross-platform support
+ARG TARGETPLATFORM
+ARG BUILDPLATFORM
+RUN echo "Building on $BUILDPLATFORM, targeting $TARGETPLATFORM"
 
 WORKDIR /var/task
 
