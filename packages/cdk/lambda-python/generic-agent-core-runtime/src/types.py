@@ -3,7 +3,12 @@
 from typing import Any
 
 from pydantic import BaseModel
-from strands.types.content import Message
+
+
+class Message(BaseModel):
+    """Message model for agent communication."""
+    role: str
+    content: str | dict[str, Any]
 
 
 class ModelInfo(BaseModel):

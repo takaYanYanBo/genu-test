@@ -1,4 +1,4 @@
-"""Main FastAPI application for Generic AgentCore Runtime."""
+"""Main FastAPI application for Generic AgentCore Runtime with Claude Agent SDK."""
 
 import json
 import logging
@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 # Initialize FastAPI app
 app = FastAPI(
     title="Generic AgentCore Runtime",
-    description="AWS Bedrock AgentCore Runtime with Strands Agent and MCP support",
+    description="AWS Bedrock AgentCore Runtime with Claude Agent SDK and MCP support",
     version="1.0.0",
 )
 

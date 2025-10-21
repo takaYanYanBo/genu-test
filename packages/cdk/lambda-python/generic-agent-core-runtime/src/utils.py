@@ -8,7 +8,7 @@ import shutil
 from typing import Any
 from uuid import uuid4
 
-from strands.types.content import ContentBlock
+# ContentBlock is no longer needed for Claude Agent SDK
 
 from .config import WORKSPACE_DIR
 
@@ -88,44 +88,45 @@ def convert_content_block_bytes(block: dict[str, Any]) -> dict[str, Any]:
     return block
 
 
-def process_content_blocks(content_blocks: list[dict[str, Any] | str]) -> list[ContentBlock]:
-    """Process content blocks and convert base64 strings to bytes for Strands"""
+def process_content_blocks(content_blocks: list[dict[str, Any] | str]) -> list[dict[str, Any]]:
+    """Process content blocks for Claude Agent SDK (simplified)"""
     processed_blocks = []
 
     for block in content_blocks:
         if isinstance(block, str):
-            processed_blocks.append(ContentBlock(text=block))
+            processed_blocks.append({"text": block})
         elif isinstance(block, dict):
             if "text" in block:
-                processed_blocks.append(ContentBlock(text=block["text"]))
+                processed_blocks.append({"text": block["text"]})
             else:
-                # Convert base64 bytes and create ContentBlock
+                # Convert base64 bytes for compatibility
                 converted_block = convert_content_block_bytes(block)
-                processed_blocks.append(ContentBlock(**converted_block))
+                processed_blocks.append(converted_block)
 
     return processed_blocks
 
 
-def process_messages(messages: list[Any] | list[dict[str, Any]]) -> list[Any]:
-    """Process messages and convert base64 strings to bytes if needed"""
-    if not messages or not isinstance(messages[0], dict):
-        return messages
-
-    # Import Message here to avoid circular imports
-    from .types import Message
+def process_messages(messages: list[Any] | list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Process messages for Claude Agent SDK (simplified)"""
+    if not messages:
+        return []
 
     processed_messages = []
     for message in messages:
-        msg = message.copy()
-        if "content" in msg and isinstance(msg["content"], list):
-            msg["content"] = [convert_content_block_bytes(block) if isinstance(block, dict) else block for block in msg["content"]]
-        processed_messages.append(Message(**msg))
+        if isinstance(message, dict):
+            msg = message.copy()
+            if "content" in msg and isinstance(msg["content"], list):
+                msg["content"] = [convert_content_block_bytes(block) if isinstance(block, dict) else block for block in msg["content"]]
+            processed_messages.append(msg)
+        else:
+            # Handle non-dict messages (convert to dict format)
+            processed_messages.append({"role": "user", "content": str(message)})
 
     return processed_messages
 
 
-def process_prompt(prompt: str | list[dict[str, Any]]) -> str | list[ContentBlock]:
-    """Process prompt and convert base64 strings to bytes if needed"""
+def process_prompt(prompt: str | list[dict[str, Any]]) -> str | list[dict[str, Any]]:
+    """Process prompt for Claude Agent SDK (simplified)"""
     if isinstance(prompt, list):
         return process_content_blocks(prompt)
     return prompt
