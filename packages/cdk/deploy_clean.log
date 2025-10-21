@@ -1,0 +1,294 @@
+Bundling asset AgentCoreStack/Singleton-B8F5E892-3A1C-4D2F-9B7E-6C8A5F9D2E1B/Code/Stage...
+
+  ...f994cfd505cb0e763707b23d5210b1d52183b280ba67fa2b-building\index.js  7.1kb
+
+Done in 28ms
+        1 個のファイルをコピーしました。
+
+added 106 packages, and audited 112 packages in 9s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/API/Predict/Code/Stage...
+
+  ...15919bd458e65d81af98f259d71a34291b933e7ec87af2-building\index.js  135.0kb
+
+Done in 84ms
+        1 個のファイルをコピーしました。
+
+added 121 packages, and audited 127 packages in 9s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/API/PredictStream/Code/Stage...
+
+  ...83d6c366973e4c2c9143f95f0cae04ef389199108358cc-building\index.js  134.7kb
+
+Done in 72ms
+        1 個のファイルをコピーしました。
+
+added 127 packages, and audited 133 packages in 10s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/API/InvokeFlow/Code/Stage...
+
+  ...77633efbddd4e97548cc6d45d7ff92f89ed59a27545d05bd-building\index.js  3.5kb
+
+Done in 20ms
+        1 個のファイルをコピーしました。
+
+added 124 packages, and audited 130 packages in 9s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/API/PredictTitle/Code/Stage...
+
+  ...d108a957aa795cfddbf635196df0029d19b2df67b75e5b-building\index.js  136.2kb
+
+Done in 71ms
+        1 個のファイルをコピーしました。
+
+added 121 packages, and audited 127 packages in 9s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/API/GenerateImage/Code/Stage...
+
+  ...81f1e3aaa7eafcf45a6f269098279ada84f135f8db42f4-building\index.js  135.0kb
+
+Done in 81ms
+        1 個のファイルをコピーしました。
+
+added 121 packages, and audited 127 packages in 9s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/API/GenerateVideo/Code/Stage...
+
+  ...610b1e442a575316bf72f8c94b1fca543996eab61cd245-building\index.js  136.4kb
+
+Done in 67ms
+        1 個のファイルをコピーしました。
+
+added 121 packages, and audited 127 packages in 9s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/API/CopyVideoJob/Code/Stage...
+
+  ...66136e2bb3d9cc8146f6be67bcc677c7f3a3b2d9272023b5-building\index.js  4.5kb
+
+Done in 22ms
+        1 個のファイルをコピーしました。
+
+added 121 packages, and audited 127 packages in 9s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/API/ListVideoJobs/Code/Stage...
+
+  ...4ac25ee2e45d8efdb760ea2d9005a32212c78816d77eb799-building\index.js  7.3kb
+
+Done in 23ms
+        1 個のファイルをコピーしました。
+
+added 121 packages, and audited 127 packages in 8s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/API/DeleteVideoJob/Code/Stage...
+
+  ...bed35567460d9de726fe7800bc740b8110867ccb7275b25b-building\index.js  3.2kb
+
+Done in 23ms
+Bundling asset GenerativeAiUseCasesStack/API/OptimizePromptFunction/Code/Stage...
+
+  ...7f8cca35d2523f7d831f1c67b17f288d969821cfebb8af3d-building\index.js  3.5kb
+
+Done in 25ms
+        1 個のファイルをコピーしました。
+
+added 112 packages, and audited 118 packages in 8s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/API/GetSignedUrl/Code/Stage...
+
+  ...d5fbee5d16e7384c4a9d43ae019215d575f9b07359f053d6-building\index.js  4.4kb
+
+Done in 29ms
+Bundling asset GenerativeAiUseCasesStack/API/GetFileDownloadSignedUrlFunction/Code/Stage...
+
+  ...7a587c51221f5fa45c3ca8a3b994a183660e31cf73561b4b-building\index.js  4.5kb
+
+Done in 24ms
+Bundling asset GenerativeAiUseCasesStack/API/CreateChat/Code/Stage...
+
+  ...6a5c38faa829ef845f61f694f49558bc76aae6dc5d88922f-building\index.js  3.1kb
+
+Done in 27ms
+Bundling asset GenerativeAiUseCasesStack/API/DeleteChat/Code/Stage...
+
+  ...c6d522090dda4441e5c0256f6bd896302aa3868df7344fa3-building\index.js  5.8kb
+
+Done in 21ms
+Bundling asset GenerativeAiUseCasesStack/API/CreateMessages/Code/Stage...
+
+  ...847741cfa052b9645c0500a2ec92d8e79c15c3c35fac59d-building\index.js  10.0kb
+
+Done in 21ms
+Bundling asset GenerativeAiUseCasesStack/API/UpdateChatTitle/Code/Stage...
+
+  ...91d673abdbfaadb917859ca69754a65d73d1071681ec8d1d-building\index.js  3.5kb
+
+Done in 30ms
+Bundling asset GenerativeAiUseCasesStack/API/ListChats/Code/Stage...
+
+  ...d7e78567acd1d6653aba462239561c3e5ed5e7868d5dede2-building\index.js  3.0kb
+
+Done in 18ms
+Bundling asset GenerativeAiUseCasesStack/API/FindChatbyId/Code/Stage...
+
+  ...45b70659fb3792a81c4cacab2c32701caade5cef890af38b-building\index.js  2.8kb
+
+Done in 20ms
+Bundling asset GenerativeAiUseCasesStack/API/ListMessages/Code/Stage...
+
+  ...7adc794bf033f5a9bc5e5b94ac8cfaf949965f17cd633e32-building\index.js  3.5kb
+
+Done in 28ms
+Bundling asset GenerativeAiUseCasesStack/API/UpdateFeedback/Code/Stage...
+
+  ...48e5976042e4aee0c5eefffd8248162732e6b2ffc0477d73-building\index.js  4.2kb
+
+Done in 22ms
+Bundling asset GenerativeAiUseCasesStack/API/GetWebText/Code/Stage...
+
+  ...8e28210756e39c24a9dd2a82d0eab9c3b0690d31b8380b-building\index.js  679.1kb
+
+Done in 129ms
+Bundling asset GenerativeAiUseCasesStack/API/CreateShareId/Code/Stage...
+
+  ...9370431dccfe6f6c486c62d09bbe7a59eeda4b9bd5e567a9-building\index.js  4.6kb
+
+Done in 22ms
+Bundling asset GenerativeAiUseCasesStack/API/GetSharedChat/Code/Stage...
+
+  ...aeeb57da9a4a5fb1387dbb9610aa33d14f993da37b62f3c6-building\index.js  4.2kb
+
+Done in 27ms
+Bundling asset GenerativeAiUseCasesStack/API/FindShareId/Code/Stage...
+
+  ...a1675d1fe3708e177f4f7b7f531b27150b2bf5d6e56e5694-building\index.js  2.9kb
+
+Done in 19ms
+Bundling asset GenerativeAiUseCasesStack/API/DeleteShareId/Code/Stage...
+
+  ...fd47ad3d6bc474b0689ca1d5e56e3eaf3a9ca79450f8a0b5-building\index.js  3.9kb
+
+Done in 18ms
+Bundling asset GenerativeAiUseCasesStack/API/ListSystemContexts/Code/Stage...
+
+  ...f67feacf699246c6cdf1f8274bb1f4f4c88c9e21af82db60-building\index.js  2.6kb
+
+Done in 25ms
+Bundling asset GenerativeAiUseCasesStack/API/CreateSystemContexts/Code/Stage...
+
+  ...b75859b36b478dcf9a2adf38f8283805dee9d4c5888ee480-building\index.js  3.4kb
+
+Done in 17ms
+Bundling asset GenerativeAiUseCasesStack/API/UpdateSystemContextTitle/Code/Stage...
+
+  ...b16e0146605e3b4f02df7390b35eb9eb87ba8f94011908bd-building\index.js  3.6kb
+
+Done in 20ms
+Bundling asset GenerativeAiUseCasesStack/API/DeleteSystemContexts/Code/Stage...
+
+  ...bc339502a6dd67ce2a7d34af868d9e25d4bfa0802700cfd5-building\index.js  3.3kb
+
+Done in 20ms
+Bundling asset GenerativeAiUseCasesStack/API/DeleteFileFunction/Code/Stage...
+
+  ...4a1b22fc6e37e342be7ed5c6c2db868798d63e1a14261ef4-building\index.js  1.8kb
+
+Done in 17ms
+Bundling asset GenerativeAiUseCasesStack/API/GetTokenUsage/Code/Stage...
+
+  ...13237667c6af2b9269b2396eec40282db574605eef705cff-building\index.js  4.5kb
+
+Done in 24ms
+Bundling asset GenerativeAiUseCasesStack/SpeechToSpeech/Task/Code/Stage...
+
+  ...147ea165a0d143a65f571b8e371de4ef2aaf73bf351dc3-building\index.js  1.4mb
+
+Done in 621ms
+        1 個のファイルをコピーしました。
+
+added 121 packages, and audited 127 packages in 8s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/SpeechToSpeech/StartSession/Code/Stage...
+
+  ...dbb8d88a5f11bb291944ac23ff6f94cbefbf0709df437028-building\index.js  2.1kb
+
+Done in 26ms
+        1 個のファイルをコピーしました。
+
+added 121 packages, and audited 127 packages in 8s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Bundling asset GenerativeAiUseCasesStack/Transcribe/StartTranscription/Code/Stage...
+
+  ...6c1bd3d986332a1b00f7d6efdc1299861b0bffcf0080615c-building\index.js  5.1kb
+
+Done in 36ms
+Bundling asset GenerativeAiUseCasesStack/Transcribe/GetTranscription/Code/Stage...
+
+  ...787cbdcddae1e97ebdc372ca89e9431b9d7ea67f47d84463-building\index.js  4.4kb
+
+Done in 16ms
+
+笨ｨ  Synthesis time: 309.47s
+
+ApplicationInferenceProfileStackus-east-1
+ApplicationInferenceProfileStackus-east-1: deploying... [1/3]
+AgentCoreStack: start: Building GenericAgentCore/AgentCoreRuntimeDockerAsset
+AgentCoreStack: fail: Failed to find and execute 'docker' while attempting to build a container asset. Please install 'docker' and try again. (Or set the 'CDK_DOCKER ' environment variable to choose a different compatible container client.)
+arn:aws:cloudformation:us-east-1:869935080389:stack/ApplicationInferenceProfileStackus-east-1/62181320-ab00-11f0-8b54-12bdf0cef987
+
+ 笨�  ApplicationInferenceProfileStackus-east-1 (no changes)
+
+笨ｨ  Deployment time: 4.96s
+
+Stack ARN:
+
+笨ｨ  Total time: 314.43s
+
+Failed to build asset GenericAgentCore/AgentCoreRuntimeDockerAsset

@@ -185,6 +185,19 @@ export class GenericAgentCore extends Construct {
       })
     );
 
+    role.addToPolicy(
+      new PolicyStatement({
+        sid: 'IAMServiceLinkedRolePermissions',
+        effect: Effect.ALLOW,
+        actions: [
+          'iam:CreateServiceLinkedRole',
+          'iam:GetRole',
+          'iam:ListRoles'
+        ],
+        resources: ['*'],
+      })
+    );
+
     return role;
   }
 
