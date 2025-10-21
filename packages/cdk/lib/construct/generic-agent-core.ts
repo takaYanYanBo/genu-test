@@ -126,7 +126,7 @@ export class GenericAgentCore extends Construct {
       'AgentCoreRuntimeDockerAsset',
       {
         directory: path.join(__dirname, `../../${dockerPath}`),
-        platform: Platform.LINUX_ARM64, // AgentCore for ARM platform
+        platform: Platform.LINUX_ARM64
       }
     );
 
